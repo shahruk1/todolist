@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    /* background-image: linear-gradient(red, yellow, green, blue, black); */
+    background-image: url("./Downloads/background_image.png");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.login-container {
+    background-color:lightblue;
+    border-radius: 100%;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 40px;
+    height: 400px;
+    width: 400px;
+    border: 10px solid black;
+    border-color: black;
+    box-shadow:0px 0px 50px  #ccc;
+    
+}
+
+.login-container h2 {
+    color: #333;
+    margin-top: 20px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-container input[type="submit"] {
+    background-color: chartreuse;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 7px;
+}
+
+.login-container input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.btn{
+    background-color: chartreuse;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 7px;
+}
+.btn:hover{
+    background-color: #45a049;
+}
+
+.login-container a {
+    color: #333;
+    text-decoration: none;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
+#a{ 
+    display: inline-block;
+    font-size: 30px;
+        background: -webkit-linear-gradient(#1900ff, #cdcbcb);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+#b {
+    display: inline-block;
+    
+        
+        font-size: 25px;
+        margin-left: 15px;
+        background-image: linear-gradient(red, yellow, green,blue);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+      
+}
+span:hover{
+    transform:rotateY(360deg);
+    
+    transition-duration: 5s;
+}
+.ear1{
+    background-color:lightblue;
+    border-radius:0% 100% 0% 100%;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 40px;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    bottom:200px;
+    left: 100px;
+    z-index: -1;
+    border: 30px double black;
+    border-color: black;
+    box-shadow:0px 0px 50px  #ccc;
+}
+.ear2{
+    background-color:lightblue;
+    border-radius:100% 0% 100% 0%;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 40px;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    bottom:200px;
+    right: 100px;
+    z-index: -1;
+    border: 30px double black;
+    border-color: black;
+    box-shadow:0px 0px 50px  #ccc;
+}
